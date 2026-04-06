@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0A] text-white font-['Inter',sans-serif];
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom aggressive scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF0033;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E60000;
+}

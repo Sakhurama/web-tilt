@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Bite The Night",
+    "price": "$180.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/Ilustracion_sin_titulo-768x768.png",
+    "category": "Decks"
+  },
+  {
+    "id": 2,
+    "name": "Quartz Watch",
+    "price": "$50.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/shop-item-3_optimized.webp",
+    "category": "Accessories"
+  },
+  {
+    "id": 3,
+    "name": "Black T-shirt",
+    "price": "$50.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/shop-item-7_optimized.webp",
+    "category": "Apparel"
+  },
+  {
+    "id": 4,
+    "name": "Color Sneakers",
+    "price": "$50.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/shop-item-8_optimized.webp",
+    "category": "Footwear"
+  },
+  {
+    "id": 5,
+    "name": "Ruedas Tilt 54MM",
+    "price": "$85.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2025/08/IMG_2268-600x600.png",
+    "category": "Hardware"
+  },
+  {
+    "id": 6,
+    "name": "Ouija Skateboard",
+    "price": "$180.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2025/03/Uoija-scaled-600x600.jpg",
+    "category": "Decks"
+  }
+]
