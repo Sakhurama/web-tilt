@@ -1,12 +1,17 @@
+import logo from '../assets/tilt-logo-blanco.png';
+
 export default function Footer() {
   return (
     <footer className="bg-[#050505] border-t border-gray-900 pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-4xl font-black italic tracking-tighter text-white uppercase mb-6">
-              TILT <span className="text-tiltRed">SKATEBOARDS</span>
-            </h3>
+            <div className="flex items-center gap-4 mb-6">
+              <img src={logo} alt="Tilt Skateboards Logo" className="w-12 h-12 object-contain" />
+              <h3 className="text-4xl font-black italic tracking-tighter text-white uppercase">
+                TILT <span className="text-tiltRed">SKATEBOARDS</span>
+              </h3>
+            </div>
             <p className="text-gray-500 max-w-sm mb-8 leading-relaxed font-light">
               No es solo un deporte, es nuestra cultura. Hardware de alta resistencia para skaters que empujan los límites y no piden permiso.
             </p>

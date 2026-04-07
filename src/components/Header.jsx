@@ -1,5 +1,6 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
+import logo from '../assets/tilt-logo-blanco.png';
 
 export default function Header() {
   const { totalItems } = useCart();
@@ -21,9 +22,12 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-gray-800 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <Link to="/" className="text-white text-3xl font-black italic tracking-tighter uppercase group focus:outline-none">
-          <span className="text-tiltRed group-hover:text-white transition-colors duration-300">TILT</span>
-          <span className="group-hover:text-tiltRed transition-colors duration-300">SKATEBOARDS</span>
+        <Link to="/" className="flex items-center gap-4 text-white text-2xl md:text-3xl font-black italic tracking-tighter uppercase group focus:outline-none">
+          <img src={logo} alt="Tilt Skateboards Logo" className="w-12 h-12 object-contain" />
+          <div className="hidden sm:block">
+            <span className="text-tiltRed group-hover:text-white transition-colors duration-300">TILT</span>
+            <span className="group-hover:text-tiltRed transition-colors duration-300">SKATEBOARDS</span>
+          </div>
         </Link>
         
         <nav className="flex items-center gap-6">
