@@ -1,5 +1,11 @@
 import logo from '../assets/tilt-logo-blanco.png';
 
+const socialLinks = {
+  instagram: "https://www.instagram.com/tilt_skateboards?igsh=MWV0OTQzMHAzd2pnZQ==",
+  facebook: "https://www.facebook.com/TiltSkateshop/",
+  youtube: "https://www.youtube.com/channel/UCHsrQgEUMoAINYqHTBGa6mQ"
+}
+
 export default function Footer() {
   return (
     <footer className="bg-[#050505] border-t border-gray-900 pt-16 pb-8 px-6">
@@ -16,8 +22,8 @@ export default function Footer() {
               No es solo un deporte, es nuestra cultura. Hardware de alta resistencia para skaters que empujan los límites y no piden permiso.
             </p>
             <div className="flex space-x-4">
-              {['Ig', 'Fb', 'Tw', 'Yt'].map((social) => (
-                <a key={social} href="#" className="w-12 h-12 rounded bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:bg-tiltRed transition-colors font-bold text-sm uppercase">
+              {['Ig', 'Fb', 'Yt'].map((social) => (
+                <a key={social} href={socialLinks[social]} className="w-12 h-12 rounded bg-gray-900 flex items-center justify-center text-gray-400 hover:text-white hover:bg-tiltRed transition-colors font-bold text-sm uppercase">
                   {social}
                 </a>
               ))}

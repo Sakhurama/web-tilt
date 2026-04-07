@@ -32,7 +32,7 @@ export default function GallerySection() {
           <p className="text-gray-400 mt-6 font-light text-lg">
             Imágenes sin filtro. Nuestra esencia capturada directamente en el asfalto. Únete a la familia.
           </p>
-          <a href="#" className="inline-flex items-center gap-2 text-white font-bold uppercase tracking-widest text-sm mt-8 border-b-2 border-tiltRed pb-1 hover:text-tiltRed transition-colors">
+          <a href="https://www.instagram.com/tilt_skateboards?igsh=MWV0OTQzMHAzd2pnZQ==" className="inline-flex items-center gap-2 text-white font-bold uppercase tracking-widest text-sm mt-8 border-b-2 border-tiltRed pb-1 hover:text-tiltRed transition-colors">
             Ver más en Instagram
             <svg className="w-4 h-4 transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
           </a>
