@@ -16,7 +16,7 @@ export default function Hero() {
         
         <a 
           href="#productos" 
-          className="group relative inline-flex items-center justify-center px-8 py-5 font-bold text-white bg-tiltRed overflow-hidden transform hover:scale-105 transition-all duration-300 uppercase tracking-widest text-lg"
+          className="hidden group relative md:inline-flex items-center justify-center px-8 py-5 font-bold text-white bg-tiltRed overflow-hidden transform hover:scale-105 transition-all duration-300 uppercase tracking-widest text-lg"
         >
           <span className="absolute w-full h-full bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300 ease-out"></span>
           <span className="relative">Descubre el armamento</span>
