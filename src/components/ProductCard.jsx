@@ -1,4 +1,16 @@
+import { useState } from 'react';
+import { useCart } from '../context/CartContext';
+
 export default function ProductCard({ product }) {
+  const { addToCart } = useCart();
+  const [added, setAdded] = useState(false);
+
+  const handleAdd = () => {
+    addToCart(product);
+    setAdded(true);
+    setTimeout(() => setAdded(false), 2000);
+  };
+
   return (
     <div className="bg-[#111] group relative overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(255,0,51,0.15)] border border-gray-800 hover:border-tiltRed/50">
       <div className="aspect-[4/5] bg-[#1a1a1a] p-6 flex justify-center items-center relative overflow-hidden">
@@ -12,8 +24,15 @@ export default function ProductCard({ product }) {
         
         {/* Quick add CTA on hover */}
         <div className="absolute bottom-6 left-0 right-0 px-6 z-20 translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 delay-100">
-          <button className="w-full bg-tiltRed hover:bg-white hover:text-black text-white font-bold py-4 px-4 uppercase tracking-wider text-sm transition-colors duration-300 shadow-[0_0_20px_rgba(255,0,51,0.3)]">
-            Añadir al carrito
+          <button 
+            onClick={handleAdd}
+            className={`w-full font-bold py-4 px-4 uppercase tracking-wider text-sm transition-colors duration-300 shadow-[0_0_20px_rgba(255,0,51,0.3)] ${
+              added 
+                ? 'bg-white text-black' 
+                : 'bg-tiltRed text-white hover:bg-white hover:text-black'
+            }`}
+          >
+            {added ? 'Agregado ✓' : 'Añadir al carrito'}
           </button>
         </div>
       </div>

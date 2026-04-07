@@ -8,24 +8,24 @@
   },
   {
     "id": 2,
-    "name": "Quartz Watch",
-    "price": "$50.000",
-    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/shop-item-3_optimized.webp",
-    "category": "Accessories"
+    "name": "Echoes of Malta",
+    "price": "$260.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2026/04/Malta-600x600.jpeg",
+    "category": "Decks"
   },
   {
     "id": 3,
-    "name": "Black T-shirt",
-    "price": "$50.000",
-    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/shop-item-7_optimized.webp",
-    "category": "Apparel"
+    "name": "El guardián de piedra",
+    "price": "$180.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2025/03/Gargola--scaled.jpg",
+    "category": "Decks"
   },
   {
     "id": 4,
-    "name": "Color Sneakers",
-    "price": "$50.000",
-    "image_url": "https://tiltskateboards.com/wp-content/uploads/2021/12/shop-item-8_optimized.webp",
-    "category": "Footwear"
+    "name": "Logo completo",
+    "price": "$180.000",
+    "image_url": "https://tiltskateboards.com/wp-content/uploads/2025/03/Full-logo-2-scaled-600x600.jpg",
+    "category": "Decks"
   },
   {
     "id": 5,
