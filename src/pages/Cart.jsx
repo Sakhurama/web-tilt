@@ -24,7 +24,7 @@ export default function Cart() {
     message += "%0A¿Me podrían confirmar la disponibilidad y los métodos de pago? ¡Gracias!";
     
     // Replace with a real phone number
-    const phoneNumber = "573000000000"; 
+    const phoneNumber = "573206215191"; 
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     
     window.open(whatsappUrl, '_blank');

@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold uppercase tracking-widest mb-6 text-sm">Soporte</h4>
             <ul className="space-y-4">
-              {['Envíos', 'Devoluciones', 'Garantía', 'FAQ', 'Tallas'].map((link) => (
+              {['Envíos', 'Devoluciones', 'Garantía', 'FAQ'].map((link) => (
                 <li key={link}>
                   <a href="#" className="text-gray-500 hover:text-tiltRed transition-colors text-sm uppercase tracking-wide">{link}</a>
                 </li>
